@@ -1,0 +1,82 @@
+body{
+    background:black;
+}
+.postcard{
+    background:white;
+    width: 600px;
+    height:400px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    right:50%;
+    bottom:50%;
+    transform:translate(-50%,-50%);
+}
+.postcard-header{
+    height:80px;
+}
+.postcard-header h1{
+    float:left;
+    width:50%;
+}
+.postcard-content{
+    width:600px;
+    height:200px;
+}
+.content-left{
+    width:48%;
+    height:170px;
+    float:left;
+    padding:15px;
+    float:left;
+}
+.content-right{
+    width:50%;
+    height:178px;
+    float:right;
+    margin-top:16px;
+    margin-right:-82px;
+    }
+    .content-right input{
+        display:block;
+        margin-top:10px;
+        margin-right:10px;
+    }
+h1{
+    color:black;
+    margin-left:15px;
+    margin-top: 20px;
+}
+img{
+    float:right;
+    margin-right: 15px;
+    margin-top:12px;
+}
+p{
+    text-align: justify;
+    text-justify:inter-character;
+    /* width:50%; */
+    font-size: 17px;
+}
+#newfont{
+font-family: 'Kalam', cursive;
+}
+.content-right input{
+    size:150px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid gray;width:60%;
+    margin-bottom:24px;
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+}
+button{
+    font-family: "kalam", cursive;
+    width:-1px;
+    height:35px;
+    margin-left:-92px;
+    margin-top:22px;
+    background:#C0C0C0;
+    font-size: 16px;
+}
